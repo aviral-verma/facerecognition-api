@@ -12,7 +12,7 @@ const image = require('./controllers/image');
 const db = knex({
     client: 'pg',
     connection: {
-      host : '127.0.0.1',
+      host : 'postgresql-convex-78645',
       user : 'aviraliitk',
       password : 'your_database_password',
       database : 'face-recognition'
